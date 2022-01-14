@@ -1,7 +1,7 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 
-const dynamicCdn = ''; // Your cdn
+const dynamicCdn = 'xx.yy.cn'; // Your cdn
 // @ts-ignore
 window.__dynamic_handler__ = function(importer) {
     return dynamicCdn + importer;
